@@ -1,0 +1,131 @@
+# .gitignore for RemakeEngine
+
+### IDE / Editor specific ###
+.vscode/
+.VSCodeCounter/
+.history/
+
+
+.pytest_cache/
+
+### Godot ###
+.godot/
+/godot/
+
+### Build artifacts / Dependencies ###
+build/
+dist/
+
+### Logs ###
+*.log
+main.log
+
+### Configuration / History ###
+config.ini
+project.json
+
+### Asset/Texture mapping cache ###
+texture_mapping.json
+asset_mapping.json
+asset_map.sqlite
+
+### Python cache ###
+__pycache__/
+*.pyc
+**/__pycache__/*
+
+remakeengine/Scripts/activate/
+
+sandbox/
+
+# git submodules
+.gitmodules
+RemakeRegistry/Games/
+
+### Temporary / Backup / Archived ###
+/TMP/
+old/
+OldModules/
+OldRemakeRegistry/
+dev/
+*.blend1
+GameFiles1/
+#uv_map_extract/
+
+### Tools ###
+# Note: It's better to not commit tool binaries to the repo.
+# scripts are used to download/install them.
+Blender/blender-4.0.2-windows-x64/
+Godot/Godot_v4.4.1-stable_mono_win64/
+QuickBMS/
+TMP/
+
+### Documentation (external repo) ###
+remake-engine-docs/
+RemakeEngineDocs/
+
+reverse_engineering_stuff/
+
+### Test / Debug / Investigation ###
+.test/
+test/
+investigation_tools/blank.blend
+investigation_tools/blank.blend1
+
+### Generated Game Files (RemakeEngine output) ###
+/Game/
+/GameFiles/
+/game/
+
+### Original Game Files (to not be committed) ###
+# These are files extracted from the original game.
+# To avoid copyright issues, they should not be in the repository.
+/Source/
+/SourceData/
+LightTOC
+StreamSetConfig
+localereftableD4815ED6.txt
+*.alb
+*.amb
+*.aub
+*.bin
+*.bsp
+*.ctb
+*.dat
+*.graph
+*.imb
+*.inf
+*.lh2
+*.lua
+*.meta.xml
+*.mib
+*.msb
+*.mus
+*.preinstanced
+*.ps3
+*.rcm_b
+*.sbk
+*.smb
+*.snu
+*.str
+*.toc
+*.txd
+*.uix
+*.vfb
+*.vp6
+*.blend1
+
+# game test
+/godot
+/godot/GameTest/
+godot/
+godot/assetTest/
+/.godot/
+
+# godot exe
+Tools/Godot/Godot_v4.4.1-stable_mono_win64/
+/blender-4.0.2-windows-x64/
+/Tools/TMP/QuickBMS/exe/
+/Tools/TMP/
+
+LRCFB.exe
