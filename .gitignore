@@ -57,7 +57,7 @@ GameFiles1/
 # scripts are used to download/install them.
 Blender/blender-4.0.2-windows-x64/
 Godot/Godot_v4.4.1-stable_mono_win64/
-QuickBMS/
+
 TMP/
 
 ### Documentation (external repo) ###
@@ -123,9 +123,9 @@ godot/assetTest/
 /.godot/
 
 # godot exe
-Tools/Godot/Godot_v4.4.1-stable_mono_win64/
+Godot/Godot_v4.4.1-stable_mono_win64/
 /blender-4.0.2-windows-x64/
-/Tools/TMP/QuickBMS/exe/
-/Tools/TMP/
+QuickBMS/exe/
+QuickBMS\exe
 
 LRCFB.exe

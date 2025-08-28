@@ -20,7 +20,7 @@ import hashlib
 
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '.')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.')))
 from Engine.Utils.printer import print, Colours, error, print_verbose, print_debug, printc
 
 
