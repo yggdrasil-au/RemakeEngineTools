@@ -1,5 +1,5 @@
 """
-Tools/Download/main.py
+Tools/Download.py
 This script downloads and unpacks tool dependencies for a project.
 
 It reads a list of required tools from a module-specific manifest file
@@ -39,7 +39,7 @@ def get_platform_identifier():
         return f"linux-{arch}"
     return "unknown"
 
-def verify_checksum(file_path, expected_sha256):
+def verify_checksum(file_path, expected_sha256) -> bool:
     """Verifies the SHA256 checksum of a file."""
     if not expected_sha256:
         print(colour=Colours.YELLOW, message=f"⚠️  Warning: No checksum provided for {os.path.basename(file_path)}. Skipping verification.")
